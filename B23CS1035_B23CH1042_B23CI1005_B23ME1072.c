@@ -117,8 +117,9 @@ printf("The first equation is %dx+%dy+%dz=%d\n",a[0][0],a[0][1],a[0][2],num[0][0
     }             
   break;
    case 2:
-    float sum=0;
     for (int i=0;i<3;i++){        
+    
+        float sum=0;
         for (int j=0;j<1;j++){ 
             for (int k=0;k<3;k++){
                 sum+=b[i][k] * num[k][j];}
